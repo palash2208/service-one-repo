@@ -8,6 +8,6 @@ public class ServiceOneController {
 
     @GetMapping("/service-one/health")
     public String serviceOneHealthCheck() {
-        return "Service One is Up and Running";
+        return "Service One is Up and Running - with Github Action";
     }
 }
